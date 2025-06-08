@@ -1,6 +1,6 @@
 {
   "name": "next-sprite-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SVG sprite generator with TypeScript support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
