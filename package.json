@@ -1,0 +1,42 @@
+{
+  "name": "next-sprite-icons",
+  "version": "1.0.0",
+  "description": "SVG sprite generator with TypeScript support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "next-sprite-icons": "dist/cli/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdubrovsky/next-sprite-icons.git"
+  },
+  "keywords": [
+    "nextjs",
+    "svg",
+    "sprite",
+    "icons",
+    "typescript",
+    "cli"
+  ],
+  "author": "Konstantin Tereschenkov <kdubrovsky@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "glob": "^10.0.0",
+    "svgo": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
