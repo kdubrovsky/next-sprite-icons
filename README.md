@@ -14,13 +14,13 @@ npm install next-sprite-icons
 ```json
 {
   "sourceDir": "./icons",
-  "outputDir": "./public/",
+  "outputDir": "./public",
   "typesDir": "./types",
   "separator": "-"
 }
 ```
 
-2. **Add SVG icons** to `./icons/` folder
+2. **Add SVG icons** to `./icons` folder
 
 3. **Generate sprites**:
 ```bash
